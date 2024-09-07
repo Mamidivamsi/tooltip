@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+   
+</head>
+<style>
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .con{
+        height: auto;
+        width: auto;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .imge{
+        padding: 1px 1px;
+    }
+    
+    img{
+        height: 150px;
+        width: 130px;
+        border-radius: 5px;
+    }
+    .imge:hover{
+        /* transform: rotate(5deg); */
+        cursor: pointer;
+    }
+    #box1{
+        margin-top: 20%;
+    }
+    #box2{
+        margin-top: 7%;
+    }
+   
+</style>
+<body>
+   <div class="con">
+    <div id="box1">
+
+        <div class="imge"><button  class="btn btn-secon" title="computer" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img1.jpg" alt="" ></button></div>
+        <div class="imge"><button  class="btn btn-secon" title="computer" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img2.jpg" alt=""></button></div>
+    </div>
+    <div id="box2">
+        <div class="imge"><button  class="btn btn-secon" title="computer" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img3.jpg" alt="" width="100%"></button></div>
+        <div class="imge"><button  class="btn btn-secon" title="computer" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img4.jpg" alt=""></button></div>
+        <div class="imge"><button  class="btn btn-secon" title="computer" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img5.jpg" alt=""></button></div>
+
+    </div>
+    <div id="box3">
+        <div class="imge"><button  class="btn btn-secon" title="computer" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img3.jpg" alt=""></button></div>
+        <div class="imge"><button  class="btn btn-secon" title="computer" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img4.jpg" alt=""></button></div>
+        <div class="imge"><button  class="btn btn-secon" title="computer" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img5.jpg" alt=""></button></div>
+    </div>
+    <div id="box2">
+        <div class="imge"><button  class="btn btn-secon" title="island" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img3.jpg" alt=""></button></div>
+        <div class="imge"><button  class="btn btn-secon" title="computer" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img4.jpg" alt=""></button></div>
+        <div class="imge"><button  class="btn btn-secon" title="computer" data-bs-toggle="hello" dat-bs-placement="hello"><img src="img5.jpg" alt=""></button></div>
+    </div>
+
+   </div>
+<!-- <button class="btn btn-secon" title="hello" data-bs-toggle="hello" dat-bs-placement="hello">het in it</button>  -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+   var exampleEl = document.getElementById('example')
+var tooltip = new bootstrap.Tooltip(exampleEl, {
+  boundary: document.body // or document.querySelector('#boundary')
+})
+</script>
+</body>
+</html>
